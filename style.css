@@ -36,8 +36,8 @@
     padding:14px 24px; max-width:1120px; margin:0 auto;
   }
   .brand-mark{display:flex; align-items:center; gap:10px;}
-  .brand{font-weight:800;font-size:1.05rem;line-height:1;color:var(--blue);}
-  .brand span{color:var(--red);display:block;font-size:0.95rem;}
+  .brand{font-weight:800;font-size:1.05rem;line-height:1;color:var(--red);}
+  .brand span{color:var(--blue);display:block;font-size:0.95rem;}
   .nav-cta{
     background:var(--blue); color:var(--white); font-weight:700; font-size:0.85rem;
     padding:10px 18px; border-radius:100px; display:flex; align-items:center; gap:8px;
