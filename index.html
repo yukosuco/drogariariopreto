@@ -111,7 +111,7 @@
       <div class="loc-grid loc-grid-single">
         <div class="unit-block" id="unitBlock">
           <div class="loc-card">
-          <span class="loc-tag">Unidade Potirendaba</span>
+           <div class="eyebrow eyebrow--compact"> <span class="eyebrow-dot" aria-hidden="true"></span><span>Unidade Potirendaba</span></div>
           <h3>Av. Potirendaba, 1649</h3>
           <div class="addr-meta">
             <div class="addr-line">
@@ -165,24 +165,6 @@
     <p class="fineprint">© 2026 Drogaria Rio Preto. Todos os direitos reservados.</p>
   </div>
 </footer>
-
-<script>
-  const hoursBtn = document.querySelector('.hours-btn');
-  const hoursCard = document.getElementById('hoursCard');
-
-  hoursBtn?.addEventListener('click', () => {
-    const isOpen = !hoursCard.hasAttribute('hidden');
-    if (isOpen) {
-      hoursCard.setAttribute('hidden', '');
-      hoursBtn.setAttribute('aria-expanded', 'false');
-      hoursBtn.textContent = 'Horários';
-    } else {
-      hoursCard.removeAttribute('hidden');
-      hoursBtn.setAttribute('aria-expanded', 'true');
-      hoursBtn.textContent = 'Fechar horários';
-    }
-  });
-</script>
 
 </body>
 </html>
